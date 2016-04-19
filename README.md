@@ -1,6 +1,8 @@
-##Object Orientation Drills
+#Object Orientation Drills
 
-This is an exercise I undertook while studying with Launch Academy in Boston. I allowed me to practice building models according to supplied tests, which drove the entire development.
+This is an exercise I undertook while studying with Launch Academy in Boston.
+
+It allowed me to practice building models according to supplied tests, which drove the entire development.
 
 Overall, this exercise increased my understanding of:
 * Building Objects in Ruby
@@ -11,9 +13,9 @@ Overall, this exercise increased my understanding of:
 ##Models
 ####`Zoo`
 * Initialize Requirements:
-  * zoo_name
-  * season_opening_date
-  * season_closing_date
+  * `zoo_name`
+  * `season_opening_date`
+  * `season_closing_date`
 * Instance Methods:
   * `add_employee`
     * adds new employee name to `employees array`
@@ -41,21 +43,21 @@ Overall, this exercise increased my understanding of:
 
 ####`Fox`
 * Initialize Requirements:
-  * name
+  * `name`
 * Instance Methods:
   * `speak`
     * outputs what the animal says
 
 ####`Gorilla`
 * Initialize Requirements:
-  * name
+  * `name`
 * Instance Methods:
   * `speak`
     * outputs what the animal says
 
 ####`Python`
 * Initialize Requirements:
-  * name
+  * `name`
 * Instance Methods:
   * `speak`
     * outputs what the animal says
