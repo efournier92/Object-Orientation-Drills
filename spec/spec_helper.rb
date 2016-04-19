@@ -1,11 +1,11 @@
-require "pry"
-require "rspec"
-require "date"
+require 'rspec'
+require 'date'
+require 'pry'
 
-require_relative "../lib/cage"
-require_relative "../lib/employee"
-require_relative "../lib/reptile"
-require_relative "../lib/fox"
-require_relative "../lib/gorilla"
-require_relative "../lib/python"
-require_relative "../lib/zoo"
+require_relative '../models/cage'
+require_relative '../models/employee'
+require_relative '../models/reptile'
+require_relative '../models/fox'
+require_relative '../models/gorilla'
+require_relative '../models/python'
+require_relative '../models/zoo'

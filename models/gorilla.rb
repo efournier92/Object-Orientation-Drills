@@ -1,7 +1,4 @@
-class Python
-
-  include Reptile
-
+class Gorilla
   attr_reader :name
 
   def initialize(name)
@@ -9,6 +6,7 @@ class Python
   end
 
   def speak
-    "SSSSssssss..."
+    "#{name} got a bad feeling about this..."
   end
+
 end

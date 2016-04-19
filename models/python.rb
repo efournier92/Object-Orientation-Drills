@@ -1,4 +1,5 @@
-class Fox
+class Python
+  include Reptile
 
   attr_reader :name
 
@@ -7,6 +8,7 @@ class Fox
   end
 
   def speak
-    "Ring-ding-ding-ding-dingeringeding!"
+    "SSSSssssss..."
   end
+
 end

@@ -1,4 +1,4 @@
-class Gorilla
+class Fox
 
   attr_reader :name
 
@@ -7,7 +7,7 @@ class Gorilla
   end
 
   def speak
-    "#{name} got a bad feeling about this..."
+    "Ring-ding-ding-ding-dingeringeding!"
   end
-
+  
 end

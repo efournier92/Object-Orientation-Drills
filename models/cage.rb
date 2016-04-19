@@ -8,4 +8,5 @@ class Cage
   def empty?
     @animal.nil?
   end
+  
 end

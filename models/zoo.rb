@@ -2,8 +2,8 @@ class ZooAtCapacity < StandardError
 end
 
 class Zoo
-
-  attr_reader :zoo_name, :cages, :employees, :season_opening_date, :season_closing_date
+  attr_reader :zoo_name, :cages, :employees,
+    :season_opening_date, :season_closing_date
 
   def initialize(zoo_name, season_opening_date, season_closing_date)
     @zoo_name            = zoo_name
@@ -48,4 +48,5 @@ class Zoo
     end
     string
   end
+
 end
